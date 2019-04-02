@@ -1,15 +1,12 @@
-# include<stdio.h>
+#include<stdio.h>
 int add(a,b)
 {
-   return a+b;
+c=a+b;
 }
-
-
 main()
 {
 int a,b,c;
-printf("enter value of a and b");
+printf("enter the value of a,b\n");
 scanf("%d %d",&a,&b);
-c=add(a,b)
-printf("%d + %d =%d\n",a,b,c);
-}
+c=a+b;
+printf("%d+%d=%d\n");
