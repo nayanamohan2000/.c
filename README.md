@@ -1,12 +1,15 @@
 #include<stdio.h>
-int add(a,b)
+int add(int x,int y)
 {
-c=a+b;
+int z;
+z=x+y;
+return z;
 }
 main()
 {
 int a,b,c;
 printf("enter the value of a,b\n");
 scanf("%d %d",&a,&b);
-c=a+b;
-printf("%d+%d=%d\n");
+c=add(a,b);
+printf("%d+%d=%d\n",a,b,c);
+}
