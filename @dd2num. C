@@ -1,0 +1,23 @@
+#include<stdio.h>
+void get_input() 
+{
+int a,b;
+printf("enter the values of a, b/n");
+scanf("%d %d",&a,&b);
+}
+int add2num(int *x, int *y) 
+{
+int z;
+z= *x+ *y;
+return z;
+}
+int output(int p) 
+{
+print("%d",p);
+}
+int main() 
+{
+void get_input;
+int add2num(&a,&b);
+output(p);
+}
